@@ -10,7 +10,7 @@ services:
      - "${HASTEBIN_PORT}:7777"
     environment:
       - "HOST=0.0.0.0"
-      - "PORT=7777"
+      - "PORT=80"
       - "KEY_LENGTH=${HASTEBIN_KEY_LENGTH}"
       - "MAX_LENGTH=${HASTEBIN_MAX_LENGTH}"
       - "STATIC_MAX_AGE=${HASTEBIN_STATIC_MAX_AGE}"
